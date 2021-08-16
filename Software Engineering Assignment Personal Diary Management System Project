@@ -18,6 +18,7 @@ void editpassword();
 
 void deleterecord();
 
+
 struct record
 
 {
@@ -163,6 +164,7 @@ void addrecord( )
     if ( fp == NULL )
 
     {
+
 
         fp=fopen(filename,"wb+");
 
