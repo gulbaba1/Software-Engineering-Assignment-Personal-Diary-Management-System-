@@ -1,4 +1,5 @@
 # Software-Engineering-Assignment-Personal-Diary-Management-System-
+
 #include<stdio.h>
 
 #include<stdlib.h>
@@ -681,7 +682,6 @@ void editrecord()
             scanf("%c",&choice);
 
         }
-
     }
     while(choice=='Y'||choice=='y');
 
@@ -760,7 +760,6 @@ int password()
                 pass[i]=getch();
 
             }
-
         }
 
         pass[i]='\0';
